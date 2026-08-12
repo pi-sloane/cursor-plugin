@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "pi-security": {
+      "url": "https://mcp.pi.security/mcp"
+    }
+  }
+}

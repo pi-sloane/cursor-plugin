@@ -1,0 +1,23 @@
+{
+  "name": "pi-security",
+  "displayName": "Pi Security",
+  "version": "0.1.0",
+  "description": "Use Pi Security in Cursor IDE to investigate findings, review security posture, plan remediation, and get guidance while you build.",
+  "author": {
+    "name": "Pi Security",
+    "email": "contact@pi.security"
+  },
+  "homepage": "https://www.pi.security/",
+  "repository": "https://github.com/pi-sloane/cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "appsec",
+    "findings",
+    "remediation",
+    "threat-modeling",
+    "design-review",
+    "mcp"
+  ],
+  "logo": "assets/pi-security.png"
+}
