@@ -2,13 +2,27 @@
 
 Pi Security brings security findings, remediation guidance, design reviews, and secure-development guidance into Cursor IDE. Use it to understand security context and take informed action without leaving your development workflow.
 
-![Pi Security logo](assets/pi-security.png)
+![Pi Security logo](assets/pi-favicon-light.svg)
 
 This release supports Cursor IDE.
 
 ## Install
 
-When the Pi Security listing is available in Cursor Marketplace:
+### From this repository as a local marketplace
+
+1. In Cursor's local marketplace flow, select the root of this repository.
+2. Confirm that Cursor imports the marketplace as `pi-security-cursor`.
+3. Install **Pi Security** for your project or user account.
+
+The `pi-security-cursor` marketplace entry resolves the Cursor plugin from the repository root. If you also imported Pi Security's Claude plugin, do not select its `pi-security` marketplace; that is a separate package for Claude Code and Cowork.
+
+### Direct local development
+
+Cursor can also load the repository directly from `~/.cursor/plugins/local/pi-security`. Copy the repository there, or create a symlink to it, then restart Cursor or run **Developer: Reload Window**. This path loads `.cursor-plugin/plugin.json` directly and does not use the marketplace manifest.
+
+### From Cursor Marketplace
+
+When the public Pi Security listing is available:
 
 1. Open **Customize** in the Cursor sidebar.
 2. Find **Pi Security** and select **Install**.

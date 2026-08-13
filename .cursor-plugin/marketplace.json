@@ -1,0 +1,17 @@
+{
+  "name": "pi-security-cursor",
+  "owner": {
+    "name": "Pi Security",
+    "email": "contact@pi.security"
+  },
+  "metadata": {
+    "description": "Pi Security plugin for Cursor IDE"
+  },
+  "plugins": [
+    {
+      "name": "pi-security",
+      "source": "./",
+      "description": "Investigate findings, review security posture, retrieve remediation guidance, and start Pi Security workflows from Cursor IDE."
+    }
+  ]
+}

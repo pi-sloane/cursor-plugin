@@ -9,7 +9,19 @@ Pi Security connects to Cursor through a hosted MCP server and uses browser-base
 
 ## Install
 
-When the Pi Security listing is available, open **Customize** in the Cursor sidebar, find **Pi Security**, and select **Install**.
+### Local marketplace
+
+In Cursor's local marketplace flow, select the root of this repository, confirm that Cursor imports the marketplace as `pi-security-cursor`, and install **Pi Security**. The marketplace resolves the plugin from the repository root.
+
+If Pi Security's Claude plugin is also imported, do not select its `pi-security` marketplace. The `pi-security-cursor` marketplace in this repository is the Cursor package.
+
+### Direct local development
+
+Copy this repository to `~/.cursor/plugins/local/pi-security`, or create a symlink there, then restart Cursor or run **Developer: Reload Window**. Cursor loads `.cursor-plugin/plugin.json` directly in this mode.
+
+### Public marketplace
+
+When the public listing is available, open **Customize** in the Cursor sidebar, find **Pi Security**, and select **Install**.
 
 ## Sign in to your environment
 
