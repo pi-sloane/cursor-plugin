@@ -1,7 +1,7 @@
 {
   "name": "pi-security",
   "displayName": "Pi Security",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use Pi Security in Cursor IDE to investigate findings, review security posture, plan remediation, and get guidance while you build.",
   "author": {
     "name": "Pi Security",
