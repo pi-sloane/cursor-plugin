@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 - 2026-08-25
+
+- Bound secure-development guidance to one playbook lookup for a stable task.
+- When playbook coverage is adjacent or missing, report the gap and continue from current repository evidence without retries or fallback lookups.
+
 ## 0.1.0 - 2026-08-12
 
 Initial release of Pi Security for Cursor IDE.
