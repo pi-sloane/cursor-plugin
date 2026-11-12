@@ -43,7 +43,7 @@ The plugin includes six skills:
 | `investigate-finding` | Find, explain, summarize, or compare Pi findings |
 | `review-security-posture` | Review threat-model context and PR security posture |
 | `remediation-guidance` | Retrieve remediation guidance for findings and vulnerable packages |
-| `security-design-review` | Start a design review from a supported document URL or pasted Markdown |
+| `security-design-review` | Start a design review from a supported document URL or pasted Markdown, and record a verdict on each of its gaps |
 | `ingest-markdown-report` | Submit a Markdown security report to Pi |
 | `secure-development-playbook` | Get secure-development guidance for an engineering task |
 
@@ -55,12 +55,13 @@ Example prompts:
 - "Review the security posture for the payments service."
 - "Get the remediation plan for lodash in the storefront codebase."
 - "Start a Pi design review for this Confluence document."
+- "Accept the fix on the first gap of that design review and accept the risk on the second."
 - "Submit this pasted report as `pentest-summary.md`."
 - "Use Pi's secure-development playbook for this webhook endpoint."
 
 ## Confirm actions in Pi
 
-Some skills submit content or start hosted work. Before taking one of these actions, the skill summarizes what it will do and asks you to confirm. A queued or started response means Pi is processing the request; it does not mean the work is complete.
+Some skills submit content, start hosted work, or record design-review verdicts. Before taking one of these actions, the skill summarizes what it will do and asks you to confirm. A queued or started response means Pi is processing the request; it does not mean the work is complete.
 
 Report ingestion uses Markdown pasted into the conversation. Design reviews accept pasted Markdown or a supported Confluence or Notion document URL. For other formats, use the Pi web app.
 
